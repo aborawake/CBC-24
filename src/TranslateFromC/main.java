@@ -2,18 +2,18 @@ package TranslateFromC;
 
 public class main {
 
-    public static void main(String[] args) {
+    public static void main (String[] args) {
         int[] fooRefactored = {0, 1, 2, 3, 4};
 
-        int[] ba = new int[100];
+        int[] bar = new int[100];
         for (int i = 0; i < 100; i++) {
-            ba[i] = i;
+            bar[i] = i;
         }
         System.out.println("The number of even numbers in fooRefactored is:");
         System.out.println(countEvenNum(fooRefactored, 5));
 
         System.out.println("The number of even numbers in bar is:");
-        System.out.println(countEvenNum(ba, 100));
+        System.out.println(countEvenNum(bar, 100));
 
     }
 
